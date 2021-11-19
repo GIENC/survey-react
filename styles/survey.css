@@ -1,0 +1,111 @@
+/*** GENERAL STYLES ***/
+.survey-loading {
+    opacity: .7;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.survey-title {
+    margin-top: 0.3em;
+    font-size: 2.5em;
+}
+
+.survey-content {
+    margin-top: 40px;
+}
+
+.survey-question-wrapper {
+    border: 1px solid #000000;
+    box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%), 0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+    border-radius: 5px;
+    padding: 1.2rem 1.6rem;
+    margin-bottom: 20px;
+}
+
+#survey .question {
+    font-size: 1.2rem;
+}
+
+#survey .question span {
+    color: #b40202;
+}
+
+/*** RATING SCALE STYLES ***/
+#ratingScale {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+#ratingScale .answers {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px 0;
+}
+
+#ratingScale .answer-label {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#ratingScale  .min-label {
+    font-size: 0.8rem;
+    padding-bottom: 7px;
+    margin: 0 10px 0 0;
+}
+
+#ratingScale .max-label {
+    font-size: 0.8rem;
+    padding-bottom: 7px;
+    margin: 0 0 0 10px;
+}
+
+.submit-survey {
+    margin-top: 40px;
+}
+
+.submit-survey button {
+    display: inline-block;
+    color: #FFF;
+    background-color: #30ab22;
+    border-color: #30ab22;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.07em;
+    border: none;
+    border-style: solid;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    padding: 1.1em 1.5em;
+}
+
+.submit-survey button:hover {
+    color: #30ab22;
+    background-color: #FFF;
+    border-color: #30ab22;
+}
+
+/*** TEXT FEEDBACK STYLES ***/
+#textFeedback textarea {
+    max-width: 500px;
+    width: 100%;
+    min-height: 60px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/*** MULTIPLE CHOICE STYLES ***/
+#multipleChoice {
+    margin-top: 20px;
+}
+
+/*** SELECT ALL STYLES ***/
+#selectAll {
+    margin-top: 20px;
+}
